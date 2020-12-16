@@ -1,5 +1,5 @@
 {% set name = "data-science-types" %}
-{% set version = "0.2.21" %}
+{% set version = "0.2.22" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/predictive-analytics-lab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 41ee3e4b49bc50045e4e880eb83317c577d3ab4e18d574a45dbc1b3e7d8566a7
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/data-science-types-{{ version }}.tar.gz
+  sha256: 5b6bb2ca4cb6b8c467c799382e12156816f38122522bdaafd882d5a3828c7345
 
 build:
   number: 0
